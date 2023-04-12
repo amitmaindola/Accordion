@@ -7,7 +7,7 @@ function Accordion(props) {
   const [show, setShow] = useState(false);
 
   return (
-    <div style={{backgroundColor: 'white', padding: '5px 20px', color: 'black', marginBottom: '20px'}}>
+    <div className='Accordion'>
         <AccordionHead heading = {props.heading} show = {show} setShow = {setShow}/>
         {show && <AccordionBody desc ={props.desc}/>}
     </div>

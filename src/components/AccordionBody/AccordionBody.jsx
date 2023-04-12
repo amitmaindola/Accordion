@@ -2,7 +2,7 @@ import React from 'react'
 
 function AccordionBody(props) {
   return (
-    <div style={{fontWeight: 400, padding: '10px 0px'}}>
+    <div className='accordionBody'>
         {props.desc}
     </div>
   )
